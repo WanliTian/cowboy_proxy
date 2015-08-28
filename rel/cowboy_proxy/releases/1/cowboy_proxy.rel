@@ -1,4 +1,4 @@
-%% rel generated at {2015,8,28} {16,57,33}
+%% rel generated at {2015,8,28} {17,14,39}
 {release,{"cowboy_proxy","1"},
          {erts,"7.0"},
          [{kernel,"4.0"},
