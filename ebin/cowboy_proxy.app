@@ -1,0 +1,9 @@
+{application,cowboy_proxy,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,cowboy]},
+              {mod,{cowboy_proxy_app,[]}},
+              {env,[]},
+              {modules,[cowboy_proxy_app,cowboy_proxy_sup,hello_handler,
+                        proxy_middleware]}]}.

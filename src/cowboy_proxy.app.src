@@ -1,0 +1,13 @@
+{application, cowboy_proxy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { cowboy_proxy_app, []}},
+  {env, []}
+ ]}.
